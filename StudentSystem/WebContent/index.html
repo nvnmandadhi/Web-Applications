@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<title>Home Page</title>
+</head>
+<body style="background-image: url('');">
+<!-- header -->
+<h2 style="color: Navy ; text-align: center;">Student System</h2>
+<h3 style="background-color: green; color: green;">header</h3>
+<!-- body -->
+<div class="leftdiv">
+	<h2 class="design">Student Registration Form</h2>
+	<form action="/StudentSystem/RegisterServlet" method="post">
+		<table>
+			<tr>
+				<td>Gender: </td>
+				<td>
+				<input id="gender1" type="radio" name="gender" value="Male">Male
+				<input id="gender2" type="radio" name="gender" value="Female">Female
+				</td>
+			</tr>
+			<tr>
+				<td>First Name: </td>
+				<td><input type="text" name="fname"></input></td>
+			</tr>
+			<tr>
+				<td>Last Name: </td>
+				<td><input type="text" name="lname"></input></td>
+			</tr>
+			<tr>
+				<td>Email: </td>
+				<td><input type="text" name="email"></input></td>
+			</tr>
+			<tr>
+				<td>Password :</td>
+				<td><input type="password" name="password"></input></td>
+			</tr>
+			<tr>
+				<td>Date of Birth: </td>
+				<td><input type="date" name="dob"></input></td>
+			</tr>
+			<tr>
+				<td>Branch: </td>
+				<td>
+					<select name="branch">
+						<option>Select Branch</option>
+						<option>ECE</option>
+						<option>CSC</option>
+						<option>MECH</option>
+						<option>EEE</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2"><input id="submit" type="submit" value="Submit"></input>
+				<input id="reset" type="reset" value="reset"></input></td>
+			</tr>
+		</table>
+	</form>
+</div>
+
+<!-- Login  -->
+<div class="rightdiv">
+<h2 class="design">Login Form</h2>
+<form action="/StudentSystem/LoginServlet" method="post">
+	<table>
+		<tr>
+			<td>Email :</td>
+			<td><input type="text" name="email"></input></td>
+		</tr>
+		<tr>
+			<td>Password :</td>
+			<td><input type="password" name="password"></input></td>
+		</tr>
+		<tr>
+			<td colspan="2"><input id="submit" type="submit" value="Login"></input></td>
+		</tr>
+	</table>
+</form>
+</div>
+<div style="float: none;">
+<h4 style="margin-top:400px; text-align:center; color: white; background-color: green;">&copy;Copyright 2016. All rights reserved!</h4>
+</div>
+</body>
+</html>

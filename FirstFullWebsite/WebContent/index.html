@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script src="script.js"></script>
+<title>The Mondo Tones</title>
+</head>
+<body id="myhome" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!--Navbar-->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="index.html"><span><img class="img-circle" src="images/logo.png" width="20px" height="20px"></span>  The Mondo Tones</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#myhome"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+      <li><a href="#band"><span class="glyphicon glyphicon-hand-right"></span> Band</a></li>
+      <li><a href="#listenmusic"><span class="glyphicon glyphicon-music"></span>  Music</a></li>
+      <li><a href="#subscribe"><span class="glyphicon glyphicon-user"></span> Connect</a></li>
+      <li><a href="#contact"><span class="glyphicon glyphicon-envelope"></span>  Contact</a></li>
+      <!--<li><a href="#signin"><span class="glyphicon glyphicon-log-in"></span>  Sign In</a></li>-->
+      <li><button type="button" class="btn btn-default btn-lg" id="myBtn"><span class="glyphicon glyphicon-log-in"></span> Sign In</button></li>
+    </ul>
+    </div>
+  </div>
+</nav>
+
+<!--carousel-->
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img src="images/picture-8.jpg" alt="New York" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>New York</h3>
+          <p>The atmosphere in New York is lorem ipsum.</p>
+        </div>      
+      </div>
+
+      <div class="item">
+        <img src="images/picture-7.jpg" alt="Chicago" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>Chicago</h3>
+          <p>Thank you, Chicago - A night we won't forget.</p>
+        </div>      
+      </div>
+    
+      <div class="item">
+        <img src="images/picture-1.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/picture-2.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/picture-3.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/picture-4.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/picture-5.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+      <div class="item">
+        <img src="images/picture-6.jpg" alt="Los Angeles" width="1200" height="700">
+        <div class="carousel-caption">
+          <h3>LA</h3>
+          <p>Even though the traffic was a mess, we had the best time playing at Venice Beach!</p>
+        </div>      
+      </div>
+    </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+</div>
+
+<!-- Container (The Band Section) -->
+<div id="band" class="container text-center">
+  <h3>THE MONDO TONES</h3>
+  <p><em>We love music!</em></p>
+  <p>Be the one with the things around you with music surrounding you!</p>
+
+  <div class="row">
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Jake Glover</strong></p><br>
+      <a href="#jake" data-toggle="collapse">
+      <img src="images/Jake.jpg" class="img-circle person" alt="Mike">
+      </a>
+    <div id="jake" class="collapse">
+      <p>Lead Gutarist</p>
+      <p>Loves chillin'</p>
+      <p>Member since 1988</p>
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>Lightnin' Mike</strong></p><br>
+      <a href="#mike" data-toggle="collapse">
+      <img src="images/Mike.jpg" class="img-circle person" alt="Mike">
+      </a>
+    <div id="mike" class="collapse">
+      <p>Lead Gutarist</p>
+      <p>Loves chillin'</p>
+      <p>Member since 1988</p>
+    </div>
+    </div>
+    <div class="col-sm-4">
+      <p class="text-center"><strong>David Bauer</strong></p><br>
+      <a href="#david" data-toggle="collapse">
+      <img src="images/David.jpg" class="img-circle person" alt="David Bauer">
+      </a>
+    <div id="david" class="collapse">
+      <p>Drummer</p>
+      <p>Loves drummin'</p>
+      <p>Member since 1988</p>
+    </div>
+  </div>
+
+</div>
+</div>
+
+<!--Music-->
+<div id="listenmusic" class="row">
+    <div class="col-sm-4">
+      <p>Browse Albums</p>
+    </div>
+    <div class="col-sm-8">
+      <p>Play Songs</p>
+    </div>
+</div>
+
+<div>
+  
+</div>
+
+<!--SignIn Modal-->
+  <div class="modal" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 style="color:red;"><span class="glyphicon glyphicon-lock"></span> Login</h4>
+        </div>
+        <div class="modal-body">
+          <form role="form" action="/FirstFullWebsite/AdminServlet" method="post">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span> Username</label>
+              <input type="text" class="form-control" name="username" id="usrname" placeholder="Enter username">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Password</label>
+              <input type="text" class="form-control" name="password" id="psw" placeholder="Enter password">
+            </div>
+            <!--<div class="checkbox">
+              <label><input type="checkbox" value="" checked>Remember me</label>
+            </div>-->
+            <button type="submit" class="btn btn-default btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Login</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-default btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          <!--<p>Not a member? <a href="#">Sign Up</a></p>
+          <p>Forgot <a href="#">Password?</a></p>-->
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!--contact-->
+  <div id="contact" class="container">
+  <h3 class="text-center">Contact</h3>
+  <p class="text-center"><em>We love our fans!</em></p>
+  <div class="row test">
+    <div class="col-md-4">
+      <p>Fan? Drop a note.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>DeKalb, US</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: mail@mail.com</p> 
+    </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div> 
+    </div>
+  </div>
+</div>
+
+<footer class="text-center">
+
+  <a class="up-arrow" href="#myhome" data-toggle="tooltip" title="TO TOP">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a><br><br>
+
+  <p>&copy;Copyrights Reserved. 2016.</p>
+</footer>
+
+</body>
+</html>

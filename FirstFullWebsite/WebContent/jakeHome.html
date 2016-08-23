@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Admin Home</title>
+<style type="text/css">
+#container {
+	text-align: center;
+	padding: 120px 120px;
+	color: blue;
+	background-color: lavender;
+	align-content: center;
+	height: 200px;
+	width: 400px;
+	border: 1px solid green;
+	border-radius: 40px;
+}
+</style>
+</head>
+<body>
+<div id="container">
+<h2>Upload a File</h2>
+<form action="/FirstFullWebsite/UploadFileServlet" method="post" enctype="multipart/form-data">
+Upload Song Here: <input type="file" name="song">
+<br><br>
+<input type="submit" value="Upload File"></input>
+</form>
+</div>
+</body>
+</html>
